@@ -7,22 +7,16 @@ Purpose: Open resources for studying
 import webbrowser
 import os
 
-def open_websites(website):
-        webbrowser.open(website)
-
-def open_apps(): 
-    os.system("nohup spotify &")
-    os.system("nohup anaconda-navigator &")
-
 def update_repo(system):
-    update = input("Update Repository? (y/n)")
+    update = input("Update repo? (y/n)")
+    pp = input("push or pull?")
     if update == 'y':
         if system == 'w':
             os.chdir('C:/Users/100042090/OneDrive - Jabil/Personal/MyCode/Complete-Python-3-Bootcamp')
-            os.system("git push")
+            os.system("git " + pp)
         elif system == 'l':
             os.chdir('/home/connor/Classes/Complete-Python-3-Bootcamp')
-            os.system("git push")
+            os.system("git " + pp)
         else:
             print("OS not support")
 
@@ -43,7 +37,6 @@ elif system == 'l':
 
     # Open Apps
     os.system("nohup spotify &")     
-    os.system("nohup anaconda-navigator &")
 
 else:
     print("OS not supported")
