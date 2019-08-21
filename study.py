@@ -15,7 +15,7 @@ def update_repo(system):
             os.chdir('C:/Users/100042090/OneDrive - Jabil/Personal/MyCode/Complete-Python-3-Bootcamp')
             os.system("git " + pp)
         elif system == 'l':
-            os.chdir('/home/connor/Classes/Complete-Python-3-Bootcamp')
+            os.chdir('/home/connor/Personal/Classes/Complete-Python-3-Bootcamp')
             os.system("git " + pp)
         else:
             print("OS not support")
