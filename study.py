@@ -33,7 +33,7 @@ elif system == 'l':
     # Open Websites
     webbrowser.open("https://www.udemy.com/complete-python-bootcamp/")     
     webbrowser.open("https://tomato-timer.com/")
-    webbrowser.open("https://jabil-my.sharepoint.com/personal/connor_hamm_jabil_com/_layouts/15/WopiFrame.aspx?sourcedoc={395547fd-b437-4c4c-b385-752e4eafb2f2}&action=edit&wd=target%28Classes.one%7Ca49583cb-bba5-41a2-b5b2-66125086bafc%2F%5BUdemy%5D%20Python%20Bootcamp%7Cc47c1968-6e3c-495f-bcc2-73ac2ee93678%2F%29")
+    webbrowser.open("https://jabil-my.sharepoint.com/personal/connor_hamm_jabil_com/_layouts/15/WopiFrame.aspx?sourcedoc={08cac105-607b-47dd-bf80-3c3b340083bf}&action=edit&wd=target%28Python%20Bootcamp.one%7Cefb8316c-cf80-435c-8542-3357a94efb69%2F8%5C%2F26%5C%2F2019%7C69ac5842-a14f-4771-a2b0-eab3ab2ad26c%2F%29")
 
     # Open Apps
     os.system("nohup spotify &")     
