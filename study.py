@@ -29,6 +29,8 @@ if system == 'w':
     webbrowser.open("https://www.udemy.com/complete-python-bootcamp/")
     webbrowser.open("https://tomato-timer.com/")
 
+    os.system("jupyter notebook")
+
 elif system == 'l':
     # Open Websites
     webbrowser.open("https://www.udemy.com/complete-python-bootcamp/")     
@@ -37,6 +39,7 @@ elif system == 'l':
 
     # Open Apps
     os.system("nohup spotify &")     
+    os.system("jupyter notebook")
 
 else:
     print("OS not supported")
